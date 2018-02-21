@@ -124,8 +124,8 @@ class SlateContentPackage extends Package {
 
         for ($i=1; $i < 3; $i++) { 
 
-            $data['cName'] = "Example {$i}";
-            $data['cHandle'] = "example-{$i}";
+            $data['cName'] = "Slate Example {$i}";
+            $data['cHandle'] = "slate-example-{$i}";
             $page = $home_page->add($page_type, $data);
             $page->setTheme($theme);
 
